@@ -1,0 +1,336 @@
+/*Colours Used for Theme: #242424, #ff9000, #ff4e00, #ffe400, #fff, #000  */
+
+
+/*Full Site Styles*/
+
+
+body {
+	background-color: #242424;
+	background-image: url('../img/background-mobile.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: helvetica, arial, sans-serif;
+	margin: 2rem;
+}
+
+a {
+	color: orange;
+}
+
+nav a {
+	color: #000;
+}
+
+h2 {
+	font-family: times new roman, serif;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+}
+
+p {
+	font-size: 0.75rem;
+}
+
+/*Header Styles*/
+
+
+header {
+	max-width: 60rem;
+	margin: auto;
+}
+
+.title {
+	display: block;
+	margin: auto;
+	float: none;
+	width: 100%;
+	max-width: 60rem;
+}
+
+.large {
+	display: none;
+}
+
+ul li a:hover {
+	color: #fff;
+}
+
+ul {
+	margin-right: 2rem;
+	margin-left: -2rem;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+hr {
+	clear: both;
+	height: 3px;
+	border: none;
+	color: #fff;
+	background-color: #fff;
+}
+
+ul li {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	color: #000;
+	align-content: center;
+}
+
+ul li:hover {
+	background-color: #000;
+	color: #fff;
+	box-shadow: 1px 1px 2px #ff9000, 0 0 25px #ff4e00, 0 0 5px #ffe400;
+}
+
+
+/*Main Content Styles*/
+
+main {
+	clear: both:
+}
+
+content {
+	margin: 2rem;
+}
+
+img {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+.content p {
+	width: 100%;
+	font-size: 0.75rem;
+	color: #fff;
+}
+
+.container {
+	clear: both;
+	max-width: 50rem;
+	margin: 1rem;
+}
+
+.container figure {
+	margin: 0 0 1rem 0;
+}
+
+.container img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+figure {
+	background-color: hsl(0, 0%, 0%, 0.3);
+	padding: 10px;
+}
+
+figure p {
+	text-align: center;
+}
+
+.article {
+	background-color: hsl(0, 0%, 0%, 0.3);
+	padding: 10px;
+}
+
+figure:hover {
+	box-shadow: 1px 1px 2px #ff9000, 0 0 25px #ff4e00, 0 0 5px #ffe400;
+}
+
+/*Footer Styles*/
+
+footer {
+	clear: both;
+	width: 100%;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	object-position: bottom;
+	background-color: black;
+	background-position: bottom;
+}
+
+
+/*Tablet Version*/
+
+@media (min-width: 35rem) {
+
+	body {
+		background-image: url('../img/background-tablet.jpg');
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+
+	/*	Header Styles*/
+
+
+	.large {
+		display: block;
+	}
+
+	.small {
+		display: none;
+	}
+
+	ul li {
+		float: left;
+		width: 45%;
+		text-align: center;
+		margin: 2.5%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: #fff;
+		color: #fff;
+	}
+
+
+
+	/*	Main Content Styles*/
+
+
+	.content {
+		clear: both;
+		max-width: 80rem;
+		object-position: center;
+		margin: auto;
+	}
+
+	img {
+		width: 25%;
+		float: left;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+		margin: 1rem auto;
+	}
+
+	.article p {
+		float: left;
+		width: 70%;
+		font-size: 1rem;
+		margin: 10px;
+		background-color: hsl(0, 0%, 0%, 0.4);
+	}
+
+	.article {
+		background-color: hsl(0, 0%, 0%, 0.0);
+		padding: 10px;
+	}
+
+	.container figure p {
+		font-size: 1rem;
+	}
+
+	/*	Footer Styles*/
+
+
+	footer {
+		clear: both;
+	}
+
+}
+
+
+/*Desktop Version*/
+
+@media (min-width: 80rem) {
+
+	body {
+		background-image: url('../img/background-desktop.jpg');
+	}
+
+	p {
+		font-size: 1.35rem;
+	}
+
+	ul li {
+		width: 20%;
+	}
+
+	.content {
+		margin: auto;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 1rem auto;
+	}
+
+	.container figure p {
+		font-size: 1.25rem;
+	}
+}
+
+/*
+
+Article Text Source:
+
+https://itisuponus.wordpress.com
+
+Stock Image Links: 
+
+https://pixabay.com/photos/apocalypse-war-disaster-destruction-2459465/
+
+https://pixabay.com/photos/armageddon-destruction-apocalypse-2546068/
+
+https://pixabay.com/photos/city-disaster-end-of-the-world-fire-2444516/
+
+https://pixabay.com/photos/city-disaster-end-of-the-world-2444512/
+
+https://pixabay.com/photos/braunschweig-city-lower-saxony-3815570/
+
+https://pixabay.com/illustrations/apocalypse-city-end-of-the-world-2921093/
+
+https://pixabay.com/photos/armageddon-war-apocalypse-2570996/
+
+https://pixabay.com/photos/travel-panoramic-architecture-3265474/
+
+maybe
+
+https://pixabay.com/photos/tunnel-light-dark-basement-exit-1841588/
+
+https://pixabay.com/photos/train-apocalypse-dawn-end-1277167/
+
+https://pixabay.com/vectors/nuclear-bomb-destruction-war-danger-24504/
+
+https://pixabay.com/photos/armageddon-disaster-destruction-war-2721568/
+
+https://pixabay.com/photos/explosion-war-soldier-run-attack-3080734/
+*/
