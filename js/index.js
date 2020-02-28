@@ -32,7 +32,7 @@ function showContent (e) {
 	let clickedLink = e.target;
 	let linkLabel = clickedLink.textContent;
 	
-	if (linkLabel==="Home") {
+	if (linkLabel==="Journal") {
 		fetch(urlHome)
 		.then(function(response){
 			return response.text();	
@@ -45,7 +45,7 @@ function showContent (e) {
 			console.log(error.message);
 		});
 			
-	} else if (linkLabel==="Portfolio") {
+	} else if (linkLabel==="Gallery") {
 		fetch(urlPortfolio)
 		.then(function(response){
 			return response.text();	

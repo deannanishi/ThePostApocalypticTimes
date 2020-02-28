@@ -163,7 +163,7 @@ figure:hover {
 
 footer {
 	clear: both;
-	width: 110%;
+	width: 104%;
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -279,8 +279,11 @@ footer {
 
 	ul li {
 		width: 20%;
+		margin-left: 28.75%; 
 	}
-
+	ul li:nth-child(2){
+		margin-left: 0;
+	}
 	.content {
 		margin: auto;
 	}
