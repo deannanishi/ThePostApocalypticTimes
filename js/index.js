@@ -8,7 +8,6 @@ function loadContent(urlValue) {
 		.then(function(response){
 			return response.text();	
 		})
-	
 		.then(function(homeContent){
 			content.innerHTML = homeContent;
 		})
@@ -19,12 +18,12 @@ function loadContent(urlValue) {
 
 function handleClick(ev) {
 
-	 preventing the default behaviour of the link tag!
+//	 preventing the default behaviour of the link tag!
 	ev.preventDefault();
 
 	let clickedLink = ev.target;
 
-	 fetch the value of url
+//	 fetch the value of url
 	url = clickedLink.href; 
 
 	loadContent(url);
