@@ -1,5 +1,5 @@
 const links = document.querySelectorAll("header nav ul li a");
-const content = document.querySelector("main .content")
+const content = document.querySelector("main .content");
 let urlHome = "./partials/home.html";
 let urlPortfolio = "./partials/portfolio.html";
 
